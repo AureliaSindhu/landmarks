@@ -7,7 +7,11 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+//SwiftUI updates a view only when an observable property changes and the view’s body reads the property directly.
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 // load(_:) method that fetches JSON data with a given name from the app’s main bundle
 // which relies on the return type’s conformance to the Decodable protocol, which is one component of the Codable protocol.
