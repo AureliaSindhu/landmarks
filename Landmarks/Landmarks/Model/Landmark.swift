@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
+struct Landmark: Hashable, Codable, Identifiable {
     // Adding Codable conformance makes it easier to move data between the structure and a data file.
     //We'll rely on the Decodable component of the Codable protocol later in this section to read data from file.
     var id: Int
@@ -17,6 +17,7 @@ struct Landmark: Hashable, Codable {
     var park: String
     var state: String
     var description: String
+    var isFavorite: Bool 
     
     private var imageName: String
     var image: Image {
@@ -24,7 +25,7 @@ struct Landmark: Hashable, Codable {
     }
     
     private var coordinates: Coordinates
-    var locationCoordinates: CLLocationCoordinate2D {
+    var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude : coordinates.latitude,
             longitude: coordinates.longitude
