@@ -1,9 +1,9 @@
-/*
-See the LICENSE.txt file for this sample’s licensing information.
-
-Abstract:
-A set of menu commands.
-*/
+//
+//  ContentView.swift
+//  LandmarkCommands
+//
+//  Created by aacode on 9/2/25.
+//
 
 import SwiftUI
 

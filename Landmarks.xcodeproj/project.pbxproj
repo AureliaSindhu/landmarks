@@ -123,9 +123,15 @@
 				Views/Landmarks/LandmarkDetail.swift,
 				Views/Landmarks/LandmarkList.swift,
 				Views/Landmarks/LandmarkRow.swift,
-				Views/Landmarks/LandmarksCommands.swift,
 			);
 			target = 372CFA272E671728001F10FC /* MacLandmarks */;
+		};
+		372CFA722E6724DF001F10FC /* Exceptions for "MacLandmarks" folder in "Landmarks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarkCommands.swift,
+			);
+			target = 37335EEC2E649CA700209D17 /* Landmarks */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -147,6 +153,9 @@
 		};
 		372CFA292E671728001F10FC /* MacLandmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				372CFA722E6724DF001F10FC /* Exceptions for "MacLandmarks" folder in "Landmarks" target */,
+			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
 		};
