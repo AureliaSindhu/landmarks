@@ -1,4 +1,4 @@
-# Learning SwiftUI ⋆⭒˚.⋆
+# ⚲ Landmarks
 
 A cross-platform SwiftUI app showcasing landmarks across iOS, watchOS, and macOS.
 
