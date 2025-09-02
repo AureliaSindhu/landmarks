@@ -9,6 +9,44 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>WatchLandmarks Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>372CF9D92E670D6F001F10FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>372CF9E52E670D70001F10FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>372CF9EF2E670D70001F10FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37335EEC2E649CA700209D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37335EF92E649CA800209D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37335F032E649CA800209D17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
