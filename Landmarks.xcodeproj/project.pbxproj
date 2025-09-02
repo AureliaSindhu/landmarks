@@ -102,7 +102,6 @@
 				Resources/landmarkData.json,
 				Views/Helper/CircleImage.swift,
 				Views/Helper/MapView.swift,
-				Views/Landmarks/LandmarkList.swift,
 				Views/Landmarks/LandmarkRow.swift,
 			);
 			target = 372CF9D92E670D6F001F10FC /* WatchLandmarks Watch App */;
@@ -121,8 +120,10 @@
 				Views/Helper/CircleImage.swift,
 				Views/Helper/FavoriteButton.swift,
 				Views/Helper/MapView.swift,
+				Views/Landmarks/LandmarkDetail.swift,
 				Views/Landmarks/LandmarkList.swift,
 				Views/Landmarks/LandmarkRow.swift,
+				Views/Landmarks/LandmarksCommands.swift,
 			);
 			target = 372CFA272E671728001F10FC /* MacLandmarks */;
 		};

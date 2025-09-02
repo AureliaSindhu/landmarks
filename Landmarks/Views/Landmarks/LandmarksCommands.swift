@@ -7,12 +7,8 @@
 
 import SwiftUI
 
-struct LandmarksCommands: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct LandmarkCommands: Commands {
+    var body: some Commands {
+        SidebarCommands()
     }
-}
-
-#Preview {
-    LandmarksCommands()
 }
