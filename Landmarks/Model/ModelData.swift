@@ -11,6 +11,19 @@ import Foundation
 //SwiftUI updates a view only when an observable property changes and the view’s body reads the property directly.
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
+    var profile = Profile.default
+    
+    var features: [Landmark]{
+        landmarks.filter{ $0.isFeatured }
+    }
+    
+    var categories: [String: [Landmark]] {
+        Dictionary(
+            grouping: landmarks,
+            by: { $0.category.rawValue }
+        )
+    }
 }
 
 // load(_:) method that fetches JSON data with a given name from the app’s main bundle

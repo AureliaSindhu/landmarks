@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeaturedCard: View {
+struct FeatureCard: View {
     var landmark: Landmark
     
     var body: some View {
@@ -47,6 +47,6 @@ struct FeaturedCard: View {
 }
 
 #Preview {
-    FeaturedCard(landmark: ModelData().features[0])
+    FeatureCard(landmark: ModelData().features[0])
         .aspectRatio(3/2, contentMode: .fit)
 }
